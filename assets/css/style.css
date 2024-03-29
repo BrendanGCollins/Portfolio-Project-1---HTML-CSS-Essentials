@@ -24,10 +24,12 @@ header {
     position: fixed;
     box-shadow: 0 5px 5px black;
     width: 100%;
+    display: flex;
+    align-items: baseline;
 }
 
 img {
-    max-height: 150px;
+    max-height: 100px;
     max-width: 100%;
 }
 
@@ -42,6 +44,20 @@ nav {
     padding-top: 10px;
     background-color: white;
     display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 3rem;
 }
 
 ul {
@@ -67,6 +83,7 @@ main {
     background-color: forestgreen;
     /* Make element take up surplus space and push footer down*/
     flex: 1 0 auto;
+    margin-top: 112px;
 }
 
 /* Footer */
@@ -86,9 +103,28 @@ main {
     margin: 0 20px;
 }
 
+/* Media query: Tablets and larger */
 @media screen and (min-width: 768px) {
     nav {
         padding-top: 10px;
         position: relative;
+        display: block;
+    }
+
+    header {
+        display: block;
+    }
+
+    img {
+        max-height: 150px;
+        max-width: 100%;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    main {
+        margin-top: 232px;
     }
 }
