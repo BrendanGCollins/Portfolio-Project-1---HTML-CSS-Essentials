@@ -30,6 +30,37 @@ h1 {
     background-image: src="/assets/css/images/DGC Logo.png";
 }
 
+img {
+    max-height: 150px;
+}
+
+nav {
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+}
+
+li {
+    float: left;
+    padding: 10px;
+}
+
+/* Hover for nav menu*/
+.nav-menu:hover {
+    background-color: black;
+    color: white;
+}
+
 /* Main content */
 main {
     background-color: forestgreen;
