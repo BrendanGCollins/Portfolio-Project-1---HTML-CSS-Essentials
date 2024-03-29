@@ -20,16 +20,19 @@ body {
 
 /* Header */
 header {
-    background-color: forestgreen;
+    background-color: white;
+    position: fixed;
+    box-shadow: 0 5px 5px black;
+    width: 100%;
 }
 
 h1 {
-    background-image: src="/assets/css/images/DGC Logo.png"
+    background-image: src="/assets/css/images/DGC Logo.png";
 }
 
 /* Main content */
 main {
-    background-color: white;
+    background-color: forestgreen;
     /* Make element take up surplus space and push footer down*/
     flex: 1 0 auto;
 }
