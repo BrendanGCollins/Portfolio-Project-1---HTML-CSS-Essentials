@@ -23,6 +23,10 @@ header {
     background-color: forestgreen;
 }
 
+h1 {
+    background-image: src="/assets/css/images/DGC Logo.png"
+}
+
 /* Main content */
 main {
     background-color: white;
