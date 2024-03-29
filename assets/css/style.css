@@ -69,10 +69,18 @@ main {
 }
 
 /* Footer */
-footer {
+#social-networks {
+    text-align: center;
     background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
 }
 
-ooter {
-    background-color: black;
+#social-networks i {
+    font-size: 200%;
+    padding: 10%;
+    color: white;
+    margin: 0 20px;
 }
