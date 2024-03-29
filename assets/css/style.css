@@ -13,10 +13,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
     /* General project styles*/
     color: white;
-
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
