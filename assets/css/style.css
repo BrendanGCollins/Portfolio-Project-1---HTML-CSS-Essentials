@@ -74,10 +74,17 @@ li {
 
 /* Main content */
 main {
-    background-color: forestgreen;
     /* Make element take up surplus space and push footer down*/
     flex: 1 0 auto;
     margin-top: 112px;
+    background-color: black;
+}
+
+/*Hero Section */
+#hero {
+    height: 500px;
+    width: 100%;
+    background: url("../images/hero.jpg") no-repeat center center/cover;
 }
 
 /* Footer */
@@ -123,6 +130,12 @@ main {
     main {
         margin-top: 232px;
     }
+
+
+    #hero {
+        height: 600px;
+        background-position: top;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -131,5 +144,10 @@ main {
     .nav-menu:hover {
         background-color: black;
         color: white;
+    }
+
+    #hero {
+        height: 1400px;
+
     }
 }
