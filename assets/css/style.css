@@ -17,6 +17,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1,
+h2 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+}
+
 /* Header */
 header {
     background-color: white;
@@ -85,12 +92,21 @@ main {
     height: 500px;
     width: 100%;
     background: url("../images/hero.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgb(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 10px;
+    width: 50%;
+    padding-left: 5px;
 }
 
 /* Footer */
 #social-networks {
     text-align: center;
-    background-color: black;
+    background-color: forestgreen;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -131,10 +147,17 @@ main {
         margin-top: 232px;
     }
 
-
+    /* Hero */
     #hero {
         height: 600px;
         background-position: top;
+    }
+
+    #cover-text {
+        bottom: 10px;
+        width: 70%;
+        padding-left: 10px;
+        font-size: 120%;
     }
 }
 
@@ -147,7 +170,12 @@ main {
     }
 
     #hero {
-        height: 1400px;
+        height: 1100px;
 
+    }
+
+    #cover-text {
+        font-size: 150%;
+        width: 50%;
     }
 }
