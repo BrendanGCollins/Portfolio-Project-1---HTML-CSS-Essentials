@@ -31,15 +31,38 @@
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav style=text-align:center>
             <ul>
-                <li href="index.html" class=" nav-menu">Home</li>
-                <li href="membership.html" class=" nav-menu">Membership</li>
-                <li href="location.html" class="nav-menu">Location</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="membership.html" class=active>Membership</a></li>
+                <li><a href="location.html">Location</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main content -->
-    <main>Main content</main>
+    <main>
+        <section id="signup">
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2>Start your gymnastics journey!</h2>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
+                <br>
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required>
+                <br>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob" id="dob" class="text-input" required>
+                <br>
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <br>
+                <label for="medical">Medical</label>
+                <input type="text" id="additional_information" name="additional_information" placeholder="Medical needs">
+                <br>
+                <button type="submit" class="join-button">Get Started</button>
+            </form>
+        </section>
+        <section id="gymnast"></section>
+    </main>
 
     <!-- Footer -->
     <footer>

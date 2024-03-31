@@ -53,12 +53,6 @@ nav {
     top: 100%;
 }
 
-.nav-menu {
-    color: black;
-    background-color: white;
-}
-}
-
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
@@ -126,6 +120,12 @@ main {
     margin: 0 20px;
 }
 
+#gymnast {
+    height: 370px;
+    width: 100%;
+    background: url("../images/gymnast_beam.webp") no-repeat center center/cover;
+    position: relative;
+}
 
 
 /* Media query: Tablets and larger */
@@ -165,6 +165,13 @@ main {
         padding-left: 10px;
         font-size: 120%;
     }
+
+    #gymnast {
+        height: 500px;
+        width: 100%;
+        background: url("../images/meg_hero.jpg") no-repeat center center/cover;
+        position: relative;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -183,5 +190,12 @@ main {
     #cover-text {
         font-size: 150%;
         width: 50%;
+    }
+
+    #gymnast {
+        height: 900px;
+        width: 100%;
+        background: url("../images/meg_ryan.jpg") no-repeat center center/cover;
+        position: relative;
     }
 }
