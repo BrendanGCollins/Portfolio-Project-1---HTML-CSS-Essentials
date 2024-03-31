@@ -245,11 +245,3 @@ td {
         position: relative;
     }
 }
-
-#gymnast {
-    height: 900px;
-    width: 100%;
-    background: url("../images/meg_ryan.jpg") no-repeat center center/cover;
-    position: relative;
-}
-}
