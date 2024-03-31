@@ -53,6 +53,12 @@ nav {
     top: 100%;
 }
 
+.nav-menu {
+    color: black;
+    background-color: white;
+}
+}
+
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
