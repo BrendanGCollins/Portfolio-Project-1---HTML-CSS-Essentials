@@ -22,6 +22,17 @@ h2 {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: white;
+    text-align: center;
+}
+
+h2,
+h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
 
 /* Header */
@@ -69,22 +80,33 @@ nav {
 
 ul {
     list-style-type: none;
-    display: flex;
-    flex-direction: row;
     display: inline-block;
 }
 
 li {
-    float: left;
+    display: inline;
     padding: 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
 }
 
 /* Main content */
 main {
+
     /* Make element take up surplus space and push footer down*/
     flex: 1 0 auto;
-    margin-top: 112px;
     background-color: black;
+    margin-top: 112px;
+    position: relative;
+    z-index: 0;
+}
+
+.favicon_container {
+    text-align: center;
+    padding-top: 20px;
 }
 
 /*Hero Section */
@@ -93,10 +115,11 @@ main {
     width: 100%;
     background: url("../images/hero.jpg") no-repeat center center/cover;
     position: relative;
+    z-index: 0;
 }
 
 #cover-text {
-    background-color: rgb(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     bottom: 10px;
     width: 50%;
@@ -120,6 +143,7 @@ main {
     margin: 0 20px;
 }
 
+/* Membership Styles */
 #gymnast {
     height: 370px;
     width: 100%;
@@ -127,6 +151,21 @@ main {
     position: relative;
 }
 
+/* Location Styles */
+.map-container {
+    width: 30%;
+}
+
+table {
+    border: 2px solid forestgreen;
+    text-align: center;
+    margin: 0 auto;
+}
+
+th,
+td {
+    border: 2px solid forestgreen;
+}
 
 /* Media query: Tablets and larger */
 @media screen and (min-width: 768px) {
@@ -136,8 +175,17 @@ main {
         display: block;
     }
 
+    /* Hover for nav menu*/
+    ul li a:hover {
+        background-color: forestgreen;
+    }
+
     header {
         display: block;
+    }
+
+    main {
+        margin-top: 205px;
     }
 
     img {
@@ -147,10 +195,6 @@ main {
 
     .nav-toggle-label {
         display: none;
-    }
-
-    main {
-        margin-top: 232px;
     }
 
     /* Hero */
@@ -172,15 +216,17 @@ main {
         background: url("../images/meg_hero.jpg") no-repeat center center/cover;
         position: relative;
     }
+
+    .map-container {
+        margin-top: 80px;
+        /* Adjust margin from the top */
+    }
+
 }
 
 @media screen and (min-width: 992px) {
 
-    /* Hover for nav menu*/
-    .nav-menu:hover {
-        background-color: black;
-        color: white;
-    }
+
 
     #hero {
         height: 1100px;
@@ -198,4 +244,12 @@ main {
         background: url("../images/meg_ryan.jpg") no-repeat center center/cover;
         position: relative;
     }
+}
+
+#gymnast {
+    height: 900px;
+    width: 100%;
+    background: url("../images/meg_ryan.jpg") no-repeat center center/cover;
+    position: relative;
+}
 }
