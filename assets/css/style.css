@@ -94,6 +94,10 @@ nav ul li a {
     text-decoration: none;
 }
 
+.active {
+    text-decoration: underline;
+}
+
 /* Main content */
 main {
 
