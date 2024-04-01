@@ -67,6 +67,7 @@ nav {
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
+    ;
 }
 
 #nav-toggle {
@@ -147,7 +148,7 @@ main {
 #gymnast {
     height: 370px;
     width: 100%;
-    background: url("../images/gymnast_beam.webp") no-repeat center center/cover;
+    background: url("../images/gymnast_beam.jpg") no-repeat center center/cover;
     position: relative;
 }
 
@@ -226,17 +227,11 @@ td {
 
 @media screen and (min-width: 992px) {
 
-
-
     #hero {
-        height: 1100px;
-
+        height: 1200px;
+        width: 100%;
     }
 
-    #cover-text {
-        font-size: 150%;
-        width: 50%;
-    }
 
     #gymnast {
         height: 900px;
