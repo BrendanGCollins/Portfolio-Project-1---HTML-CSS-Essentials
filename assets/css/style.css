@@ -166,6 +166,10 @@ main {
     margin: auto;
 }
 
+.required {
+    color: forestgreen;
+}
+
 /* Location Styles */
 .map-container {
     width: 30%;
