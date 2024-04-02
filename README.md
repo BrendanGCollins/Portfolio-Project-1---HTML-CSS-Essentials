@@ -81,6 +81,8 @@ All html and css was passed through w3c validator, results shared below.
 
 Project was tested with lighthouse to ensure accessibility and performance was to a high quality. I ran a test for mobile pages and another for desktop pages. Results are posted below.
 
+I have also tested the site by manually clicking through all available links to ensure they are working correctly. I have included the results of this test in a table below.
+
 ### Validator Testing 
 
 - HTML
@@ -91,6 +93,50 @@ Project was tested with lighthouse to ensure accessibility and performance was t
   - Lighthouse mobile report <img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/lighthouse_report_mobile.png">
 
   - Lighthouse desktop report <img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/lighthouse_report_mobile.png">
+
+  - Manual Testing
+  <table>
+    <tr>
+            <th>Action</th>
+            <th>Expected Behavior</th>
+            <th>Pass or Fail</th>
+    </tr>
+    <tr>
+            <td>Click Logo</td>
+            <td>Returns to home page</td>
+            <td>Pass</td>
+    </tr>
+            <td>Click home</td>
+            <td>Returns to home page</td>
+            <td>Pass</td>
+    </tr>
+            <td>Click membership</td>
+            <td>Go to membership page</td>
+            <td>Pass</td>
+    </tr>
+                <td>Click location</td>
+                <td>Go to location page</td>
+                <td>Pass</td>
+    </tr>
+                <td>Clicking Logo</td>
+                <td>Returns to home page</td>
+                <td>Pass</td>
+    </tr>
+                <td>Clicking Logo</td>
+                <td>Returns to home page</td>
+                <td>Pass</td>
+    </tr>
+                <td>Clicking Logo</td>
+                <td>Returns to home page</td>
+                <td>Pass</td>
+    </tr>
+                <td>Clicking Logo</td>
+                <td>Returns to home page</td>
+                <td>Pass</td>
+    </tr>
+
+  </table>
+
 
 ### Unfixed Bugs
 
