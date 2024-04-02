@@ -118,7 +118,7 @@ main {
 #hero {
     height: 500px;
     width: 100%;
-    background: url("../images/hero.jpg") no-repeat center center/cover;
+    background: url("../images/hero.webp") no-repeat center center/cover;
     position: relative;
     z-index: 1;
 }
@@ -232,7 +232,7 @@ td {
     #gymnast {
         height: 500px;
         width: 100%;
-        background: url("../images/meg_hero.jpg") no-repeat center center/cover;
+        background: url("../images/meg_hero.webp") no-repeat center center/cover;
         position: relative;
     }
 
@@ -254,7 +254,7 @@ td {
     #gymnast {
         height: 900px;
         width: 100%;
-        background: url("../images/meg_ryan.jpg") no-repeat center center/cover;
+        background: url("../images/meg_ryan.webp") no-repeat center center/cover;
         position: relative;
     }
 }
