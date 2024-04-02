@@ -2,57 +2,65 @@
 
 Douglas gymnastics club is an artistic gymnsatics club that aims to get kids into the sport of artistic gymnastics and keep them in it through to adulthood. It will be useful for anyone looking for more information on the club and what we offer. It shows where to find us, how to get signed up and how to get in touch.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+
+<img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/readme_img_1.png">
+<img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/readme_img_2.png">
+<img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/readme_img_3.png">
+
+How my pages look across desktop, tablet and mobile.
+
 
 ## Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home page, membership, and location page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - The nav bar takes up the full width of the screen on larger devices and changes to a burger icon with dropdown menu on smaller screens 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar] Full screen 
+<img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/readme_img_4.png">
+<br>
+Mobile Screen <img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/readme_img_5.png">
+
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing includes our club logo so that a user immediately knows where they are.
+  - This section introduces the user to Douglas Gymnastics Club with an eye catching background image to draw attention.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page] 
+<img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/readme_img_6.png">
 
-- __Club Ethos Section__
+- __What we offer section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - This section provides information on all the classes and camps we offer in the club.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
-- __Meetup Times section__
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![What we offer]
+<img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/readme_img_7.png">
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites for Douglas Gymnastics Club. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via our social media.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer]
+<img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/readme_img_8.png">
 
-- __Gallery__
+- __Membership__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - This page allows users to get singed up for our classes and camps. All required fields are marked clearly. A custom confirmation page was used via "confirmation.html" so that a user knows they have successfully sent us their details.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+   - Different images have been used across different screen sizes to better fill the page and make it appealing on all screen sizes.
 
-- __The Sign Up Page__
+![Membership]
+<img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/readme_img_9.png">
+<br>
+<img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/readme_img_10.png">
+
+- __The Location Page__
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 
