@@ -77,21 +77,20 @@ Mobile Screen <img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-P
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+All html and css was passed through w3c validator, results shared below. 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+Project was tested with lighthouse to ensure accessibility and performance was to a high quality. I ran a test for mobile pages and another for desktop pages. Results are posted below.
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrendangcollins.github.io%2Fhttps-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrendangcollins.github.io%2Fhttps-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+  - Lighthouse mobile report <img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/lighthouse_report_mobile.png">
+
+  - Lighthouse desktop report <img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/lighthouse_report_mobile.png">
 
 ### Unfixed Bugs
 
