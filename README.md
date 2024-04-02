@@ -62,17 +62,18 @@ Mobile Screen <img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-P
 
 - __The Location Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page provides our club location, contact details, a table with office opening hours and an interactive map with the club location.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![location Page]
+<img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/readme_img_11.png">
 
 ### Features Left to Implement
 
-- Another feature idea
+- I needed to keep the scope for this project tight but i could add more features to the page.
+- Add a gallery page showing members in the club during classes and camps.
+- Create a seperate html page for workshops so that classes and workshops are seperate.
+- Imbed a feed to the main page showing the club's facebook/instagram page.
+- Add separate html page with log in for current members to pay term fees.
 
 ## Testing 
 
