@@ -106,41 +106,78 @@ I have also tested the site by manually clicking through all available links to 
             <td>Returns to home page</td>
             <td>Pass</td>
     </tr>
+    <tr>
             <td>Click home</td>
             <td>Returns to home page</td>
             <td>Pass</td>
     </tr>
+    <tr>
             <td>Click membership</td>
             <td>Go to membership page</td>
             <td>Pass</td>
     </tr>
-                <td>Click location</td>
-                <td>Go to location page</td>
-                <td>Pass</td>
+    <tr>
+            <td>Click location</td>
+            <td>Go to location page</td>
+            <td>Pass</td>
     </tr>
-                <td>Clicking Logo</td>
-                <td>Returns to home page</td>
-                <td>Pass</td>
+    <tr>
+            <td>Click Facebook Icon</td>
+            <td>Brings you to external Facebook page</td>
+            <td>Pass</td>
     </tr>
-                <td>Clicking Logo</td>
-                <td>Returns to home page</td>
-                <td>Pass</td>
+    <tr>
+            <td>Click Instagram Icon</td>
+            <td>Brings you to external Instagram page</td>
+            <td>Pass</td>
     </tr>
-                <td>Clicking Logo</td>
-                <td>Returns to home page</td>
-                <td>Pass</td>
+    <tr>
+            <td>Click view larger map on google map page</td>
+            <td>Brings you to external full view map</td>
+            <td>Pass</td>
     </tr>
-                <td>Clicking Logo</td>
-                <td>Returns to home page</td>
-                <td>Pass</td>
+    <tr>
+            <td>Fill out all fields except required first name and submit form</td>
+            <td>User will receive a prompt that first name is required</td>
+            <td>Pass</td>
     </tr>
+    <tr>
+            <td>Fill out all fields except required second name and submit form</td>
+            <td>User will receive a prompt that second name is required</td>
+            <td>Pass</td>
+    </tr>
+    <tr>
+            <td>Fill out all fields except required date of birth and submit form</td>
+            <td>User will receive a prompt that date of birth is required</td>
+            <td>Pass</td>
+    </tr>
+    <tr>
+            <td>Fill out all fields except required email and submit form</td>
+            <td>User will receive a prompt that email is required</td>
+            <td>Pass</td>
+    </tr>
+    <tr>
+            <td>Fill out email field with normal text and submit form</td>
+            <td>User will receive a prompt that email is missing an "@"</td>
+            <td>Pass</td>
+    </tr>    
+    <tr>
+            <td>Fill out form including optional medical field</td>
+            <td>Users will receive confirmation of successfull application by being taken to a confirmation page</td>
+            <td>Pass</td>
+    </tr>  
+    <tr>
+            <td>Fill out form excluding optional medical field</td>
+            <td>Users will receive confirmation of successfull application by being taken to a confirmation page</td>
+            <td>Pass</td>
+    </tr>         
 
   </table>
 
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+No bugs found at the end of this project. 
 
 ## Deployment
 
