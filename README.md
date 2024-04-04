@@ -3,9 +3,9 @@
 Douglas gymnastics club is an artistic gymnsatics club that aims to get kids into the sport of artistic gymnastics and keep them in it through to adulthood. It will be useful for anyone looking for more information on the club and what we offer. It shows where to find us, how to get signed up and how to get in touch.
 
 
-<img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/readme_img_1.png">
-<img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/readme_img_2.png">
-<img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/readme_img_3.png">
+<img src="assets/images/readme_img_1.png">
+<img src="assets/images/readme_img_2.png">
+<img src="assets/images/readme_img_3.png">
 
 How my pages look across desktop, tablet and mobile.
 
@@ -21,9 +21,9 @@ How my pages look across desktop, tablet and mobile.
   - The nav bar takes up the full width of the screen on larger devices and changes to a burger icon with dropdown menu on smaller screens 
 
 ![Nav Bar] Full screen 
-<img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/readme_img_4.png">
+<img src="assets/images/readme_img_4.png">
 <br>
-Mobile Screen <img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/readme_img_5.png">
+Mobile Screen <img src="assets/images/readme_img_5.png">
 
 
 - __The landing page image__
@@ -32,14 +32,14 @@ Mobile Screen <img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-P
   - This section introduces the user to Douglas Gymnastics Club with an eye catching background image to draw attention.
 
 ![Landing Page] 
-<img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/readme_img_6.png">
+<img src="assets/images/readme_img_6.png">
 
 - __What we offer section__
 
   - This section provides information on all the classes and camps we offer in the club.
 
 ![What we offer]
-<img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/readme_img_7.png">
+<img src="assets/images/readme_img_7.png">
 
 - __The Footer__ 
 
@@ -47,7 +47,7 @@ Mobile Screen <img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-P
   - The footer is valuable to the user as it encourages them to keep connected via our social media.
 
 ![Footer]
-<img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/readme_img_8.png">
+<img src="assets/images/readme_img_8.png">
 
 - __Membership__
 
@@ -56,16 +56,16 @@ Mobile Screen <img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-P
    - Different images have been used across different screen sizes to better fill the page and make it appealing on all screen sizes.
 
 ![Membership]
-<img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/readme_img_9.png">
+<img src="assets/images/readme_img_9.png">
 <br>
-<img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/readme_img_10.png">
+<img src="assets/images/readme_img_10.png">
 
 - __The Location Page__
 
   - This page provides our club location, contact details, a table with office opening hours and an interactive map with the club location.
 
 ![location Page]
-<img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/readme_img_11.png">
+<img src="assets/images/readme_img_11.png">
 
 ### Features Left to Implement
 
@@ -90,9 +90,9 @@ I have also tested the site by manually clicking through all available links to 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrendangcollins.github.io%2Fhttps-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-  - Lighthouse mobile report <img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/lighthouse_report_mobile.png">
+  - Lighthouse mobile report <img src="assets/images/lighthouse_report_mobile.png">
 
-  - Lighthouse desktop report <img src="/workspaces/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/assets/images/lighthouse_report_mobile.png">
+  - Lighthouse desktop report <img src="assets/images/lighthouse_report_desktop.png">
 
   - Manual Testing
   <table>
