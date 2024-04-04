@@ -243,6 +243,7 @@ td {
 
 }
 
+/* Media query: Laptop and larger */
 @media screen and (min-width: 992px) {
 
     #hero {
@@ -256,5 +257,12 @@ td {
         width: 100%;
         background: url("../images/meg_ryan.webp") no-repeat center center/cover;
         position: relative;
+    }
+
+    .home_column {
+        width: 75%;
+        margin: 0 auto;
+        display: block;
+        font-size: x-large;
     }
 }
