@@ -184,44 +184,33 @@ No bugs found at the end of this project.
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+- Go to the Settings tab of your GitHub repo.
+On the left-hand sidebar, in the Code and automation section, select Pages.
+- Set sourse to 'Deploy from Branch'.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+- Select main branch
+- Make sure your folder is set to / (root)
 
+- Click on save
+
+- Wait a few minutes for the site to update then go back to the main page by clicking "code" in the top left of the screen.
+
+- Click on "Deployments" in the bottom right of the sceen.
+
+- The live link can be found here - https://brendangcollins.github.io/https-github.com-BrendanGCollins-Portfolio-Project-1---HTML-CSS-Essentials/
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+- Lots of questions answered through https://www.w3schools.com/
+- Help with flexbox received from this video https://www.youtube.com/watch?v=u044iM9xsWU
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The text for the Home page was modeled from a gymnastics club in cork https://gymnastics.ie/
+- The icons in the main page and footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
+- The club logo image was taken from my own club http://www.douglasgym.com/
+- The images for home page as well as sign up page on desktop and tablet were taken from gymnasts in my own club. From our instagram page https://www.instagram.com/douglasgymnasticsclub/
+- The image for signup page on mobile was taken from https://www.gettyimages.ca/detail/photo/gymnast-on-balance-beam-royalty-free-image/97766951?adppopup=true
